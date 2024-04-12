@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityRole>
+<section class="card shadow border-0 mt-4">
+    <header class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <h2 class="text-white text-center py-2 m-0">Listas de Roles</h2>
+    </header>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6"></div>
+            <div class="col-3 offset-3 text-end">
+                
+                <a asp-action="Upsert" class="btn btn-primary">Crear un rol</a>
+            </div>
+        </div>
+        @if (Model.Any())
+        {
+            <table class="table table-bordered table-striped">
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Acciones</th> <!-- Updated for clarity -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>
+                                <div class="text-center">
+                                    <form asp-action="Delete" asp-route-roleId="@item.Id">
+                                        <a asp-action="Upsert" asp-route-roleId="@item.Id" class="btn btn-info text-white" style="cursor:pointer">
+                                   Edictar
+                               </a>
+                               
+                                   <button type="submit" onclick="return confirm('Esta seguro eliminar el rol')"
+                                       class="btn btn-danger">
+                                       Eliminar
+
+                                   </button>
+                               </form>
+                           </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="alert alert-info" role="alert">
+                No hay roles para mostrar.
+            </div>
+        }
+    </div>
+</section>

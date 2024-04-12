@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ApplicationUser>
+
+<section class="card shadow border-0 mt-4">
+    <header class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <h2 class="text-white text-center py-2 m-0">Listas de Usuarios</h2>
+    </header>
+    <div class="card-body p-4">
+        @if (Model.Any())
+        {
+            <table class="table table-bordered table-striped">
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col">Email</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Roles</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Email</td>
+                            <td>@item.Name</td>
+                            <td>@item.Role</td>
+                            <td>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <a asp-action="ManageRole"  asp-route-userId="@item.Id"  class="btn btn-primary w-100">
+                                            Roles
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        <a asp-action="ManageUserClaim" asp-route-userId="@item.Id" class="btn btn-info w-100">
+                                            Claim
+                                        </a>
+                                    </div>
+                                    <div class="col-3">
+                                        @if(item.LockoutEnd==null || item.LockoutEnd < DateTime.Now)
+                                        {
+                                         <form asp-action="LockUnLock" asp-route-userId="@item.Id">
+                                             <input type="submit" class="btn btn-success w-100 " style="cursor:pointer" value="Lock" />
+                                            </form>
+
+                                        }
+                                        else
+                                        {
+                                            <form asp-action="LockUnLock" asp-route-userId="@item.Id">
+                                                <input type="submit" class="btn btn-warning w-100 " style="cursor:pointer" value="UnLock" />
+                                            </form>
+                                        }
+
+                                    </div>
+                                    <div class="col-3">
+                                        <form asp-action="DeleteUser" asp-route-userId="@item.Id">
+                                            <button type="submit"
+                                            onclick="return confirm('Seguro quiere eliminar el usuario')"
+                                            class="btn btn-danger w-100"
+                                            >
+                                                Eliminar
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="alert alert-info" role="alert">
+                No hay usuarios para mostrar.
+            </div>
+        }
+    </div>
+</section>

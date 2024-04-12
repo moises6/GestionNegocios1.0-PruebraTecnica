@@ -1,0 +1,61 @@
+﻿@model GestionNegocios_PruebraTecnica.Models.ItemMenu
+
+@{
+    ViewData["Title"] = "Editar Item";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Editar Item</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <form asp-action="Edit" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group">
+                    <label asp-for="Nombre" class="control-label">Nombre</label>
+                    <input asp-for="Nombre" class="form-control" aria-label="Nombre" required>
+                    <div asp-validation-for="Nombre" class="invalid-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Descripcion" class="control-label">Descripción</label>
+                    <input asp-for="Descripcion" class="form-control" aria-label="Descripcion" required>
+                    <div asp-validation-for="Descripcion" class="invalid-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="CategoriaId" class="control-label">Categoría ID</label>
+                    <input asp-for="CategoriaId" class="form-control" aria-label="Categoria ID" required>
+                    <div asp-validation-for="CategoriaId" class="invalid-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Precio" class="control-label">Precio</label>
+                    <input asp-for="Precio" type="number" class="form-control" aria-label="Precio" required>
+                    <div asp-validation-for="Precio" class="invalid-feedback"></div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="NegocioId" class="control-label">Negocio ID</label>
+                    <input asp-for="NegocioId" class="form-control" aria-label="Negocio ID" required>
+                    <div asp-validation-for="NegocioId" class="invalid-feedback"></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

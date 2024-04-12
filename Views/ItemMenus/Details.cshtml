@@ -1,0 +1,47 @@
+﻿@model GestionNegocios_PruebraTecnica.Models.ItemMenu
+
+@{
+    ViewData["Title"] = "Detalles del Item";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1 class="mb-4">Detalles del Item</h1>
+
+    @if (Model != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Información del Item</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-4">Nombre:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                    <dt class="col-sm-4">Descripción:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                    <dt class="col-sm-4">Categoría ID:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.CategoriaId)</dd>
+
+                    <dt class="col-sm-4">Precio:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Precio)</dd>
+
+                    <dt class="col-sm-4">Negocio ID:</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.NegocioId)</dd>
+                </dl>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            El elemento solicitado no está disponible.
+        </div>
+    }
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a>
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </div>
+</div>

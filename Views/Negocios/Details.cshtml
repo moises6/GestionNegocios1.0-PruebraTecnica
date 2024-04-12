@@ -1,0 +1,31 @@
+﻿@model GestionNegocios_PruebraTecnica.Models.Negocio
+
+@{
+    ViewData["Title"] = "Detalles del Negocio";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1>Detalles del Negocio</h1>
+    <div class="card">
+        <div class="card-body">
+            <h4>Información del Negocio</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">Nombre:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt class="col-sm-3">Descripción:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                <dt class="col-sm-3">Fecha de Creación:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.FechaCreacion)</dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a>
+        <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
+    </div>
+</div>

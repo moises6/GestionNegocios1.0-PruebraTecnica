@@ -1,0 +1,60 @@
+﻿@model RegisterViewModel
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="card-title text-center">Registro</h2>
+                </div>
+                <div class="card-body">
+                    <p class="text-center">Completa el formulario para registrar un nuevo usuario.</p>
+                   <form asp-action="Register" method="post" asp-controller="Account" asp-route-returnurl="@ViewData["ReturnUrl"]">
+                        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label">Correo Electrónico</label>
+                            <input asp-for="Email" class="form-control" placeholder="ejemplo@correo.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Name" class="form-label">Nombre</label>
+                            <input asp-for="Name" class="form-control" placeholder="Tu nombre completo" /> 
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Password" class="form-label">Contraseña</label>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="Contraseña" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ConfirmPassword" class="form-label">Confirmar Contraseña</label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control" placeholder="Repite la contraseña" /> 
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="RoleSelected" class="col-12"></label>
+                            <div class="col-md-12">
+                                <select asp-for="RoleSelected" asp-items="@Model.RoleList" class="form-select">
+                                    <option disabled selected>--Seleccione un rol--</option> 
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group text-center mt-4">
+                            <button type="submit" class="btn btn-primary" >Registra</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

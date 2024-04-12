@@ -1,0 +1,63 @@
+﻿@model Microsoft.AspNetCore.Identity.IdentityRole
+
+@{
+    var title = "Crear Roles";
+}
+<form method="post">
+    @if(Model!=null && !String.IsNullOrEmpty(Model.NormalizedName))
+    {
+        title = "Edictar Roles";
+        <input asp-for="@Model.Id" hidden />
+        <input asp-for="@Model.NormalizedName" hidden />
+    }
+    <section class="card shadow border-0 mt-4">
+    <header class="card-header bg-success bg-gradient m-lg-0 py-3">
+        <h2 class="text-white text-center py-2 m-0">@title</h2>
+    </header>
+    <div class="card-body p-4">
+            
+       
+
+            @if (Model != null && !String.IsNullOrEmpty(Model.NormalizedName))
+            {
+                 <div class="form-group">
+                <label asp-for="Id" class="col-12"></label>
+                <div class="col-md-12">
+                    <input asp-for="Id" readonly class="form-control"/>
+                </div>
+            </div>
+            }
+
+           
+            <div class="form-group">
+                <label asp-for="Name" class="col-12">Nombre del Rol</label>
+                <div class="col-md-12">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                </div>
+            <div class="form-group row justify-content-between mt-4">
+                <div class="col-auto">
+                    <a class="btn btn-secondary" asp-action="Index">Salir</a>
+                </div>
+                    <div class="col-md-6 offset-md-3">
+                        @if (Model != null && !String.IsNullOrEmpty(Model.NormalizedName))
+                        {
+                            <input type="submit" class="btn btn-success w-100" value="Update" />
+                        }
+                        else
+                        {
+                             <input type="submit" class="btn btn-success w-100" value="Create" />
+                        }
+                   
+                    </div>
+                 
+            </div>
+                   
+                 
+         
+
+    </div>
+</section>
+</form>

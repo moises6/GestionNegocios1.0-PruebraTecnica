@@ -1,0 +1,24 @@
+﻿@model GestionNegocios_PruebraTecnica.Models.Categoria
+
+@{
+    ViewData["Title"] = "Detalles de la Categoría";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h1>Detalles de la Categoría</h1>
+    <div class="card my-4">
+        <div class="card-body">
+            <h4 class="card-title">Información de la Categoría</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">Nombre:</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Nombre)</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a>
+        <a asp-action="Index" class="btn btn-secondary ml-2">Volver a la Lista</a>
+    </div>
+</div>

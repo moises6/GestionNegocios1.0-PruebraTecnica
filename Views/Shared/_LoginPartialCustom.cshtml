@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hola @UserManager.GetUserName(User)</a>
+                </li>
+                <li class="nav-item">
+                    <form id="logoutForm" method="post" asp-controller="Account" asp-action="LogOff" class="form-inline">
+                        <button type="submit" class="btn btn-link nav-link" style="padding-left:0">Cerrar Sesión</button>
+                    </form>
+                </li>
+                @if (User.IsInRole("admin"))
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Register">Registrar</a>
+                    </li>
+                }
+               
+                
+                    
+                    
+                
+            } else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Account" asp-action="Login">Iniciar Sesión</a>
+                    </li>
+                }
+
+           
+        </ul>
+    </div>
+</nav>
