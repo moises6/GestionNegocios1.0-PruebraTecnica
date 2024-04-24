@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Newtonsoft.Json.Linq;
 
 
@@ -25,13 +26,14 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         }
 
         [AllowAnonymous]
-        [Authorize(Roles = SD.Admin)]
+        [Authorize(Roles = SD.Administrador)]
         public async Task<IActionResult> Register(string returnurl = null)
         {
-            if (!await _roleManager.RoleExistsAsync(SD.Admin))
+            if (!await _roleManager.RoleExistsAsync(SD.Administrador))
             {
-                await _roleManager.CreateAsync(new IdentityRole(SD.Admin));
-                await _roleManager.CreateAsync(new IdentityRole(SD.User));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Administrador));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Gerente));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Presidente));
             }
 
 
@@ -50,11 +52,12 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = SD.Admin)]
+        [Authorize(Roles = SD.Administrador)]
         public async Task<IActionResult> Register(RegisterViewModel model, string returnurl = null)
         {
             ViewData["ReturnUrl"] = returnurl;
             returnurl ??= Url.Content("~/");
+
             if (ModelState.IsValid)
             {
                 model.RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem
@@ -62,6 +65,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                     Text = i,
                     Value = i
                 });
+
                 var user = new ApplicationUser
                 {
                     UserName = model.Email,
@@ -75,12 +79,14 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                 {
                     if (model.RoleSelected != null)
                     {
-                        await _userManager.AddToRoleAsync(user, model.RoleSelected); 
+                        await _userManager.AddToRoleAsync(user, model.RoleSelected);
                     }
-                    else
+                    else 
                     {
-                        await _userManager.AddToRoleAsync(user, SD.User); 
+                        await _userManager.AddToRoleAsync(user, SD.Gerente);
+                        await _userManager.AddToRoleAsync(user, SD.Presidente);
                     }
+                 
 
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     return LocalRedirect(returnurl);

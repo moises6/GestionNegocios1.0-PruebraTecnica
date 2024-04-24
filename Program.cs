@@ -1,18 +1,30 @@
 using GestionNegocios_PruebraTecnica.Data;
+
+using GestionNegocios_PruebraTecnica.DataAcess.Servicios;
 using GestionNegocios_PruebraTecnica.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+    
+
+
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 builder.Services.AddDbContext<AplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-    .AddEntityFrameworkStores<AplicationDbContext>();
+    .AddEntityFrameworkStores<AplicationDbContext>()
+.AddDefaultTokenProviders();
 
 builder.Services.ConfigureExternalCookie(options =>
 {

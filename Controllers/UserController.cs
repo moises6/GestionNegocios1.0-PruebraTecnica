@@ -23,7 +23,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
             _roleManager = roleManager;
         }
 
-        [Authorize(Roles = SD.Admin)]
+        [Authorize(Roles = SD.Administrador)]
         public async Task <IActionResult> Index()
         {
             var userList = _db.AplicationUsers.ToList();

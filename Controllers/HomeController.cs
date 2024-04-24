@@ -16,22 +16,23 @@ namespace GestionNegocios_PruebraTecnica.Controllers
 
         public IActionResult Index()
         {
-            if (User.IsInRole(SD.Admin))
+            if (User.IsInRole(SD.Administrador))
             {
-                return RedirectToAction("Index", "Negocios");
+                return RedirectToAction("Index", "Home");
             }
-            else if (User.IsInRole(SD.User))
+            else if (User.IsInRole(SD.Gerente))
             {
-                return RedirectToAction("Index", "ItemMenus");
+                return RedirectToAction("Index", "Surcursales");
             }
-            else
+            else if (User.IsInRole(SD.Presidente))
             {
-                // Handle other roles or scenarios
-                return View();
+                
+                return RedirectToAction("Index", "CadenasComerciales");
             }
+            return View();
            
-        }
-        [Authorize(Roles = SD.Admin)]
+        } 
+        [Authorize(Roles = SD.Administrador)]
         public IActionResult Privacy()
         {
             return View();

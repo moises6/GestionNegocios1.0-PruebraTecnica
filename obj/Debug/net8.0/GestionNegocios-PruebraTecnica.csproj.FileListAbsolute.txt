@@ -1,0 +1,8 @@
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.csproj.AssemblyReference.cache
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.AssemblyInfoInputs.cache
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.AssemblyInfo.cs
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.csproj.CoreCompileInputs.cache
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.RazorAssemblyInfo.cache
+C:\Users\moise\OneDrive\Escritorio\GestionNegocios-PruebraTecnica\obj\Debug\net8.0\GestionNegocios-PruebraTecnica.RazorAssemblyInfo.cs
