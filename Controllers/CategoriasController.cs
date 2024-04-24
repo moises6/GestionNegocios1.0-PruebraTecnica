@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using GestionNegocios_PruebraTecnica.Data;
 using GestionNegocios_PruebraTecnica.Models;
 
-namespace GestionNegocios_PruebraTecnica.Controllers
+namespace CadenasComerciales_PruebraTecnica.Controllers
 {
     public class CategoriasController : Controller
     {
@@ -22,7 +22,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         // GET: Categorias
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Categorias.ToListAsync());
+            return View(await _context.Categoria.ToListAsync());
         }
 
         // GET: Categorias/Details/5
@@ -33,8 +33,8 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                 return NotFound();
             }
 
-            var categoria = await _context.Categorias
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var categoria = await _context.Categoria
+                .FirstOrDefaultAsync(m => m.CategoriaId == id);
             if (categoria == null)
             {
                 return NotFound();
@@ -54,7 +54,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre")] Categoria categoria)
+        public async Task<IActionResult> Create([Bind("CategoriaId,Nombre,Descripcion")] Categoria categoria)
         {
             if (ModelState.IsValid)
             {
@@ -73,7 +73,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                 return NotFound();
             }
 
-            var categoria = await _context.Categorias.FindAsync(id);
+            var categoria = await _context.Categoria.FindAsync(id);
             if (categoria == null)
             {
                 return NotFound();
@@ -86,9 +86,9 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre")] Categoria categoria)
+        public async Task<IActionResult> Edit(int id, [Bind("CategoriaId,Nombre,Descripcion")] Categoria categoria)
         {
-            if (id != categoria.Id)
+            if (id != categoria.CategoriaId)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CategoriaExists(categoria.Id))
+                    if (!CategoriaExists(categoria.CategoriaId))
                     {
                         return NotFound();
                     }
@@ -124,8 +124,8 @@ namespace GestionNegocios_PruebraTecnica.Controllers
                 return NotFound();
             }
 
-            var categoria = await _context.Categorias
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var categoria = await _context.Categoria
+                .FirstOrDefaultAsync(m => m.CategoriaId == id);
             if (categoria == null)
             {
                 return NotFound();
@@ -139,10 +139,10 @@ namespace GestionNegocios_PruebraTecnica.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var categoria = await _context.Categorias.FindAsync(id);
+            var categoria = await _context.Categoria.FindAsync(id);
             if (categoria != null)
             {
-                _context.Categorias.Remove(categoria);
+                _context.Categoria.Remove(categoria);
             }
 
             await _context.SaveChangesAsync();
@@ -151,7 +151,7 @@ namespace GestionNegocios_PruebraTecnica.Controllers
 
         private bool CategoriaExists(int id)
         {
-            return _context.Categorias.Any(e => e.Id == id);
+            return _context.Categoria.Any(e => e.CategoriaId == id);
         }
     }
 }

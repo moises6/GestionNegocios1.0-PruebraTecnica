@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\sucursalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\sucursalusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|c:\\users\\moise\\onedrive\\escritorio\\gestionnegocios1.0-pruebratecnica\\models\\cadenacomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\cadenacomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|c:\\users\\moise\\onedrive\\escritorio\\gestionnegocios1.0-pruebratecnica\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|c:\\users\\moise\\onedrive\\escritorio\\gestionnegocios1.0-pruebratecnica\\migrations\\20240421180226_initialcadenadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:migrations\\20240421180226_initialcadenadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|c:\\users\\moise\\onedrive\\escritorio\\gestionnegocios1.0-pruebratecnica\\migrations\\20240423193508_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:migrations\\20240423193508_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\aspnetuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moise\\AppData\\Local\\Temp\\f5lrp3xi.qi2.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moise\\AppData\\Local\\Temp\\n0ohs0yr.dj0.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moise\\AppData\\Local\\Temp\\bswasddn.kkj.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\dataacess\\servicios\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:dataacess\\servicios\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\dataacess\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:dataacess\\servicios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4BC745E-47C5-4810-A082-EF699001FD14}|CadenasComerciales-PruebraTecnica.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 158,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:967553810:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "Controllers\\CategoriasController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:38:30.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240421180226_InitialCadenaDB.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Migrations\\20240421180226_InitialCadenaDB.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240421180226_InitialCadenaDB.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Migrations\\20240421180226_InitialCadenaDB.cs",
+              "RelativeToolTip": "Migrations\\20240421180226_InitialCadenaDB.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T20:36:58.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240423193508_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Migrations\\20240423193508_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240423193508_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Migrations\\20240423193508_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20240423193508_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:35:08.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "Data\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:12:55.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Models\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Sucursal.cs",
+              "RelativeToolTip": "Models\\Sucursal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:47:59.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CadenaComercial.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\CadenaComercial.cs",
+              "RelativeDocumentMoniker": "Models\\CadenaComercial.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\CadenaComercial.cs",
+              "RelativeToolTip": "Models\\CadenaComercial.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:00:40.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SucursalUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\SucursalUsuario.cs",
+              "RelativeDocumentMoniker": "Models\\SucursalUsuario.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\SucursalUsuario.cs",
+              "RelativeToolTip": "Models\\SucursalUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:11:26.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:13:32.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:12:04.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:14:04.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Horario.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Horario.cs",
+              "RelativeDocumentMoniker": "Models\\Horario.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Horario.cs",
+              "RelativeToolTip": "Models\\Horario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:49:32.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "f5lrp3xi.qi2.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\AppData\\Local\\Temp\\f5lrp3xi.qi2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\f5lrp3xi.qi2.cs",
+              "ToolTip": "C:\\Users\\moise\\AppData\\Local\\Temp\\f5lrp3xi.qi2.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\f5lrp3xi.qi2.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:31:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bswasddn.kkj.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\AppData\\Local\\Temp\\bswasddn.kkj.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\bswasddn.kkj.cs",
+              "ToolTip": "C:\\Users\\moise\\AppData\\Local\\Temp\\bswasddn.kkj.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\bswasddn.kkj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:31:16.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "n0ohs0yr.dj0.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\AppData\\Local\\Temp\\n0ohs0yr.dj0.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\n0ohs0yr.dj0.cs",
+              "ToolTip": "C:\\Users\\moise\\AppData\\Local\\Temp\\n0ohs0yr.dj0.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\n0ohs0yr.dj0.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T17:31:17.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\Item.cs",
+              "RelativeToolTip": "Models\\Item.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:49:01.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AspNetUser.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\AspNetUser.cs",
+              "RelativeDocumentMoniker": "Models\\AspNetUser.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\AspNetUser.cs",
+              "RelativeToolTip": "Models\\AspNetUser.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:08:50.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:13:20.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:13:01.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T16:42:22.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\DataAcess\\Servicios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Servicios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\DataAcess\\Servicios\\GenericRepository.cs",
+              "RelativeToolTip": "DataAcess\\Servicios\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:14:17.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\DataAcess\\Servicios\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "DataAcess\\Servicios\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\moise\\OneDrive\\Escritorio\\GestionNegocios1.0-PruebraTecnica\\DataAcess\\Servicios\\ItemRepository.cs",
+              "RelativeToolTip": "DataAcess\\Servicios\\ItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:14:27.363Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GestionNegocios1.0-PruebraTecnica.props" />
+</Project>

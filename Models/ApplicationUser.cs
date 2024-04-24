@@ -11,6 +11,9 @@ namespace GestionNegocios_PruebraTecnica.Models
         [NotMapped]
         public string RoleId { get; set; }
         [NotMapped]
-        public string Role { get; set; }
+        public string Role { get; set; } 
+        
+       
     }
+   
 }
